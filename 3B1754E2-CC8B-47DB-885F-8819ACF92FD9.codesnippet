@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pstrong</string>
+	<string>tvrefresh</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#ObjectType#&gt; *&lt;#property#&gt;;</string>
+	<string>@weakify(self);
+    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        @strongify(self);
+        
+    }];
+    self.tableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+        @strongify(self);
+
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B2CD8C2-BF87-4AF2-AE12-771FC3D54E48</string>
+	<string>3B1754E2-CC8B-47DB-885F-8819ACF92FD9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pstrong</string>
+	<string>tableView refresh</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property strong</string>
+	<string>My Code Snippet - tvrefresh</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
