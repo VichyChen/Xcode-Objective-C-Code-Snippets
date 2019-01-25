@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     //[tableView deselectRowAtIndexPath:indexPath animated:YES];
-    &lt;#code#&gt;
+    &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>293DC476-04A9-42FF-8F27-E4E76354A1D8</string>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

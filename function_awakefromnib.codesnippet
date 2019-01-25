@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ftvhfh</string>
+	<string>fawakefromnib</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return &lt;#CGFLOAT_MIN#&gt;;
+	<string>- (void)awakeFromNib {
+    [super awakeFromNib];
+    &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>297C67E7-CF92-4AE9-86BC-968A49992D02</string>
+	<string>73025C2C-5122-4B54-88C6-2B4860FFD758</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ftvhfh</string>
+	<string>fawakefromnib</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITableView heightForHeaderInSection</string>
+	<string>function awakeFromNib</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

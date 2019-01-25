@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fc</string>
+	<string>fnc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>+ (&lt;#void#&gt;)&lt;#method#&gt; {
-    &lt;#code#&gt;
+    &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0B93E28-9646-433B-8EBF-6E78A1A995E3</string>
+	<string>04A99E97-72FC-4BE1-9CF8-4AE01EC8D322</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>fc</string>
+	<string>fnc</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Create a class method</string>
 	<key>IDECodeSnippetUserSnippet</key>

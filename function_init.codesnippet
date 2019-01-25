@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ftvhfh</string>
+	<string>finit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return &lt;#CGFLOAT_MIN#&gt;;
+	<string>- (instancetype)init {
+    self = [super init];
+    if (self) {
+        &lt;#statements#&gt;
+    }
+    return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>297C67E7-CF92-4AE9-86BC-968A49992D02</string>
+	<string>E8C176CA-452D-44FB-A182-ED1BAEA0E0FB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ftvhfh</string>
+	<string>finit</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITableView heightForHeaderInSection</string>
+	<string>function init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

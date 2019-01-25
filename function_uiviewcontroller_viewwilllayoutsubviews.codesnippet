@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
-    &lt;#code#&gt;
+    &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>64AF1B7A-94DA-464A-B7E9-05BB0B82EBF4</string>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

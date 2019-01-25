@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    &lt;#code#&gt;
+    &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EF203285-561F-4C0C-AA1E-842CDAFB8D0C</string>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

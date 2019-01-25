@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return &lt;#code#&gt;;
+    return &lt;#statements#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F078AE20-1857-4E36-A01B-2853DB0DF17A</string>
@@ -23,6 +23,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
