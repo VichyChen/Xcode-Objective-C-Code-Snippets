@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fsetselected</string>
+	<string>his</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-    &lt;#statements#&gt;
-}</string>
+	<string>#import &lt;&lt;#header#&gt;&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1E82A58F-848A-49D2-8781-9A30E2675B93</string>
+	<string>2832D7B1-D2E9-405B-AB21-DD7FB4E29B3C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>fsetselected</string>
+	<string>his</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>funtion setSelected</string>
+	<string>#import &lt;&lt;#header#&gt;&gt;</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

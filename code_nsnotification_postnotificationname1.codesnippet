@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fsetselected</string>
+	<string>cncpo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-    &lt;#statements#&gt;
-}</string>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#NSNotificationName#&gt; object:&lt;#nil#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1E82A58F-848A-49D2-8781-9A30E2675B93</string>
+	<string>698800A0-CBB3-49EF-8325-A9801E15AC9F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>fsetselected</string>
+	<string>cncpo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>funtion setSelected</string>
+	<string>NSNotificationCenter postNotificationName1</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
