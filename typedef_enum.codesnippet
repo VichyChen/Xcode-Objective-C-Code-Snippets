@@ -3,25 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cncr</string>
+	<string>tdenum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [[NSNotificationCenter defaultCenter] removeObserver:self];
-</string>
+	<string>typedef enum {
+    &lt;#Type1#&gt; = 0,
+    &lt;#Type2#&gt;,
+}&lt;#Type#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9177DB0C-2E3A-42D7-9DA5-58B0CAA7ABDA</string>
+	<string>8F43C550-BCC9-4C76-B99C-14F109B3EFDC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cncr</string>
+	<string>tdenum</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSNotificationCenter removeObserver</string>
+	<string>typedef enum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

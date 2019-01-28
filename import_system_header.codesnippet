@@ -6,7 +6,7 @@
 	<string>his</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#import &lt;&lt;#header#&gt;&gt;</string>
