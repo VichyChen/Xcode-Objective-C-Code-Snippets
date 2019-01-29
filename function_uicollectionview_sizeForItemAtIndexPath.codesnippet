@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cc</string>
+	<string>fcvsfi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#class name#&gt; (&lt;#category name#&gt;)
-
-@end</string>
+	<string>- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return CGSizeMake(&lt;#0#&gt;, &lt;#0#&gt;);
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4137F683-AB07-40EF-BCC8-C4877884EE37</string>
+	<string>6B422D87-082E-4FA4-BF80-B4CFBFE64797</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cc</string>
+	<string>fcvsfi</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class category</string>
+	<string>UICollectionView sizeForItemAtIndexPath</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

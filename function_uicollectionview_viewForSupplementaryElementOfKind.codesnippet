@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>fcvvfseok</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+    UICollectionReusableView *reusableView = nil;
+    if(kind == UICollectionElementKindSectionHeader) {
+        reusableView = [collectionView reusableHeaderWithIdentifier:&lt;#Identifier#&gt; indexPath:indexPath];
+    }
+    else if (kind == UICollectionElementKindSectionFooter) {
+        reusableView = [collectionView reusableFooterWithIdentifier:&lt;#Identifier#&gt; indexPath:indexPath];
+    }
+    
+    return reusableView;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>02D48FD8-8B01-4BD9-AF02-68572D081E00</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>fcvvfseok</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView viewForSupplementaryElementOfKind</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

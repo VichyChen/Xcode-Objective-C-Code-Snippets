@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cc</string>
+	<string>ctvregisterheaderfooternib</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#class name#&gt; (&lt;#category name#&gt;)
-
-@end</string>
+	<string>[&lt;#self.tableView#&gt; registerNib:[UINib nibWithNibName:&lt;#nibName#&gt; bundle:&lt;#nil#&gt;] forHeaderFooterViewReuseIdentifier:&lt;#Identifier#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4137F683-AB07-40EF-BCC8-C4877884EE37</string>
+	<string>BE0F05EB-4AB8-4478-A831-73166A3C45CA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cc</string>
+	<string>ctvregisterheaderfooternib</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class category</string>
+	<string>UITableView registerHeaderFooterNib</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cc</string>
+	<string>fcvmisfs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#class name#&gt; (&lt;#category name#&gt;)
-
-@end</string>
+	<string>- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(nonnull UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
+    return &lt;#0#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4137F683-AB07-40EF-BCC8-C4877884EE37</string>
+	<string>201BB18E-A51F-43AC-AE6F-28DA71B6983D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cc</string>
+	<string>fcvmisfs</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class category</string>
+	<string>UICollectionView minimumInteritemSpacingForSectionAtIndex</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

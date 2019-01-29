@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    &lt;#UITableViewCell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:@"&lt;#Identifier#&gt;" forIndexPath:indexPath];
+    &lt;#UITableViewCell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#Identifier#&gt; forIndexPath:indexPath];
     
     return cell;
 }</string>
