@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fcvrsfh</string>
+	<string>cbkd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
-    return CGSizeMake(&lt;#0#&gt;, &lt;#0#&gt;);
-}</string>
+	<string>    &lt;#returnType#&gt;(^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;) = ^(&lt;#parameters#&gt;) {
+        &lt;#statements#&gt;
+    };</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>99AED2AA-7D2E-406D-AD6A-C5A78F279824</string>
+	<string>EB07C9CA-6669-480A-97AC-6B54E291EFC1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>fcvrsfh</string>
+	<string>cbkd</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UICollectionView referenceSizeForHeaderInSection</string>
+	<string>Block define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
