@@ -6,7 +6,7 @@
 	<string>hiu</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#import "&lt;#header#&gt;"</string>
