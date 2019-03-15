@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cci</string>
+	<string>dsc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@implementation &lt;#class#&gt; (&lt;#category name#&gt;)
-
-&lt;#methods#&gt;
-
-@end</string>
+	<string>static NSString * const &lt;#kName#&gt; = @"&lt;#string#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>06640301-9CAD-4E28-848A-CFE1A1F0CADE</string>
+	<string>84BF8485-2D9C-4FB7-96CC-786F03AFD52A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cci</string>
+	<string>dsc</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class category implementation</string>
+	<string>declare static const</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

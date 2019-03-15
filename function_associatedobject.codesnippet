@@ -3,28 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cci</string>
+	<string>faotemplate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@implementation &lt;#class#&gt; (&lt;#category name#&gt;)
+	<string>- (&lt;#id#&gt;)&lt;#propertyName#&gt; {
+    return objc_getAssociatedObject(self, _cmd);
+}
 
-&lt;#methods#&gt;
-
-@end</string>
+- (void)set&lt;#PropertyName#&gt;:(&lt;#id#&gt;)&lt;#propertyName#&gt; {
+    objc_setAssociatedObject(self, @selector(&lt;#propertyName#&gt;), &lt;#propertyName#&gt;, &lt;#OBJC_ASSOCIATION_#&gt;);
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>06640301-9CAD-4E28-848A-CFE1A1F0CADE</string>
+	<string>13CA7D7E-0EDC-4A65-91C9-7BD9E321B4F7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cci</string>
+	<string>AssociatedObject</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class category implementation</string>
+	<string>function AssociatedObject template</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

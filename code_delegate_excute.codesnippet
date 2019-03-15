@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cci</string>
+	<string>cdelegatee</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@implementation &lt;#class#&gt; (&lt;#category name#&gt;)
-
-&lt;#methods#&gt;
-
-@end</string>
+	<string>    if ([&lt;#self.delegate#&gt; respondsToSelector:@selector(&lt;#method#&gt;)]) {
+        [&lt;#self.delegate#&gt; &lt;#method#&gt;];
+    }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>06640301-9CAD-4E28-848A-CFE1A1F0CADE</string>
+	<string>0BA05BE6-C618-4B3D-90B7-8AD4BDEE0B44</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cci</string>
+	<string>cdelegatee</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class category implementation</string>
+	<string>delegate excute</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
