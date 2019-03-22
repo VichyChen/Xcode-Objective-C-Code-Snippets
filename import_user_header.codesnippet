@@ -9,7 +9,7 @@
 		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#import "&lt;#header#&gt;"</string>
+	<string>#import "&lt;#header#&gt;.h"</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>96244C24-54B2-4FA4-A228-153726E2AFAC</string>
 	<key>IDECodeSnippetLanguage</key>

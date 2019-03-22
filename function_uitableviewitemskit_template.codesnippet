@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ftviktemplate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UITableViewItemsDelegate
+
+- (NSArray&lt;UITableViewItem *&gt; *)tableViewItemsInTableView:(UITableView *)tableView {
+    return @[
+             //
+             ({
+                 UITableViewItem *model = [[UITableViewItem alloc] init];
+                 model.viewForHeader = ^UIView *(UITableView *tableView, NSInteger section) {
+                     &lt;#UITableViewHeaderFooterView#&gt; *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:&lt;#Identifier#&gt;];
+                     
+                     return view;
+                 };
+                 // model.headerColor = &lt;#[UIColor whiteColor]#&gt;;
+                 model.heightForHeader = ^CGFloat(UITableView *tableView, NSInteger section) {
+                     return &lt;#height#&gt;;
+                 };
+                 model.viewForFooter = ^UIView *(UITableView *tableView, NSInteger section) {
+                     &lt;#UITableViewHeaderFooterView#&gt; *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:&lt;#Identifier#&gt;];
+                     
+                     return view;
+                 };
+                 // model.footerColor = &lt;#[UIColor whiteColor]#&gt;;
+                 model.heightForFooter = ^CGFloat(UITableView *tableView, NSInteger section) {
+                     return &lt;#height#&gt;;
+                 };
+                 model.numberOfRows = 1;
+                 model.cellForRow = ^UITableViewCell *(UITableView *tableView, NSIndexPath *indexPath) {
+                     &lt;#UITableViewCell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#Identifier#&gt; forIndexPath:indexPath];
+                     
+                     return cell;
+                 };
+                 model.heightForRow = ^CGFloat(UITableView *tableView, NSIndexPath *indexPath) {
+                     return &lt;#UITableViewAutomaticDimension#&gt;;
+                 };
+                 model.didSelectRow = ^(UITableView *tableView, NSIndexPath *indexPath) {
+                     &lt;#statements#&gt;
+                 };
+                 model;
+             }),
+             ];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ED3A209F-70E4-4C78-9162-EBD0CCD5E31A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ftviktemplate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableViewItemsKit template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
