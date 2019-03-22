@@ -323,14 +323,14 @@ if ([<#self.delegate#> respondsToSelector:@selector(<#method#>)]) {
 
 ### method & function
 
-- `fni`
+- `fci`
 ```objc
 - (<#void#>)<#method#> {
     <#statements#>
 }
 ```
 
-- `fnc`
+- `fcc`
 ```objc
 + (<#void#>)<#method#> {
     <#statements#>
