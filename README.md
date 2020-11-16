@@ -417,6 +417,23 @@ if ([<#self.delegate#> respondsToSelector:@selector(<#method#>)]) {
 }
 ```
 
+- `fgetter`
+```objc
+- (<#Type#>)<#property#> {
+    if (!_<#property#>) {
+        _<#property#> =
+    }
+    return _<#property#>;
+}
+```
+
+- `fsetter`
+```objc
+- (void)set<#property#>:(<#Type#>)<#property#> {
+    _<#property#> = <#property#>;
+}
+```
+
 ### UIViewController
 - `fvcvwa`
 ```objc
@@ -483,6 +500,13 @@ if ([<#self.delegate#> respondsToSelector:@selector(<#method#>)]) {
 ```
 
 ### IBAction
+- `fibaction`
+```objc
+- (IBAction)<#method#>Action:(<#id#>)sender {
+    <#statement#>
+}
+```
+
 ### LazyLoad
 ### pragma
 - `hpm`

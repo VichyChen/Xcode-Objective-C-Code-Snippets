@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>faction</string>
+	<string>fibaction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>faction</string>
+	<string>fibaction</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Funtion IBAction</string>
 	<key>IDECodeSnippetUserSnippet</key>
