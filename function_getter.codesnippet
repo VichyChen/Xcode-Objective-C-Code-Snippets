@@ -3,32 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tvrefresh</string>
+	<string>fgetter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@weakify(self);
-    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-        @strongify(self);
-        
-    }];
-    self.tableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
-        @strongify(self);
-
-    }];</string>
+	<string>- (&lt;#Type#&gt;)&lt;#property#&gt; {
+    if (!_&lt;#property#&gt;) {
+        _&lt;#property#&gt; =
+    }
+    return _&lt;#property#&gt;;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B1754E2-CC8B-47DB-885F-8819ACF92FD9</string>
+	<string>2DBFF6DF-B2EA-4E18-9CEA-FFDDCFE75D14</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tableView refresh</string>
+	<string>fgetter</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet - tvrefresh</string>
+	<string>Function Getter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
